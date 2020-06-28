@@ -1,0 +1,206 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat' ;
+}
+
+
+p {
+    color: #8f8f8f;
+    width: 65%;
+    margin: auto;
+}
+
+
+/***** Heading Section *****/
+
+.large-header {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+.medium-header {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.small-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+
+/**** Conatainers *****/
+.container-fluid {
+    padding: 6% 15% ;
+}
+
+
+/**** Sections *****/
+.colored-sec {
+    background-color: #966c35;
+    color: #fff;
+}
+
+.white-sec {
+    background-color: #fff;
+}
+
+/****** Title section ******/
+
+#title .container-fluid {
+    padding : 3% 15% 6%;
+    text-align: left;
+}
+
+
+.download-btn {
+    border: 1.5px solid;
+    margin: 30px 30px 30px 0px;
+    padding: 10px;
+    font-size: large;
+}
+
+.iphone-img {
+    transform : rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 25%;
+}
+
+
+/****** Navigation bar ******/
+.navbar {
+    padding: 0 0 90px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.nav-item {
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+/***** Features section ******/
+
+#features {
+    
+    position: relative;
+    margin: 0;
+    padding: 0 15%;
+}
+
+.feature-box {
+    margin: 100px auto;
+}
+
+.feature-tags{
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.fas {
+    padding: 20px;
+    color: #ef8172;
+}
+
+.fas:hover{
+    color: red;
+}
+
+
+/****** Testimonial Section *******/
+
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin:  20px;
+
+}
+
+
+/*****Press Section *****/
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+    padding-bottom: 5%;
+}
+
+
+/***** Pricing Section *****/
+
+
+.pricing-cd-padding {
+    padding: 3% 2%;
+}
+
+.pricing-text {
+    line-height: 2;
+}
+
+.sign-up-btn {
+    border: 3px solid;
+    width: 70%;
+}
+
+
+/***** Call to Action Section *****/ 
+
+
+
+/***** Footer Section *******/
+
+#footer {
+    padding : 3% 0;
+}
+
+.footer-icon {
+    padding: 1rem 2rem 1rem;
+    color: #4b4848;
+}
+
+.footer-icon:hover {
+    color: #916a39;
+}
+
+.copyright {
+    padding: 1% 0;
+}
+
+/**** Mobile or Tablet ViewPort *****/
+
+@media (max-width: 1000px) {
+    
+    #title {
+        text-align: center;
+    }
+
+    .large-header{
+        font-size: 2.5rem;
+    }
+
+    .iphone-img {
+        position: static;
+        transform: none;  
+    }
+
+   .medium-header{
+       font-size: 25px;
+   }
+    
+   .feature-box {
+       margin: 20px auto;
+   }
+}
